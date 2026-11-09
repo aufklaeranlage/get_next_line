@@ -1,0 +1,7 @@
+*.o
+*.d
+*.a
+*.so
+
+compile_flags.txt
+

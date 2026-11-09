@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: abronner <abronner@42studnets.berlin>      +#+  +:+       +#+         #
+#    By: abronner <abronner@students.42berlin.de>   +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2025/02/21 09:11:46 by abronner          #+#    #+#              #
-#    Updated: 2025/02/21 13:56:32 by abronner         ###   ########.fr        #
+#    Created: 2025/03/06 09:59:55 by abronner          #+#    #+#              #
+#    Updated: 2025/03/12 18:50:12 by abronner         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,7 +30,7 @@ OBJS		:=	$(patsubst %.c,$(OBJ_DIR)%.o,$(SRCS))
 
 CC			:=	cc
 
-CFLAGS		:=	-Wall -Wextra -Werror $G
+CFLAGS		:=	-Wall -Wextra -Werror $(ADDCCFLAGS)
 
 CPPFLAGS	:=	-I$(INC_DIR)
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: abronner <abronner@42studnets.berlin>      +#+  +:+       +#+        */
+/*   By: abronner <abronner@students.42berlin.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/22 11:22:30 by abronner          #+#    #+#             */
-/*   Updated: 2025/02/23 18:02:31 by abronner         ###   ########.fr       */
+/*   Created: 2025/03/06 09:59:02 by abronner          #+#    #+#             */
+/*   Updated: 2025/03/12 18:43:36 by abronner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,7 @@ static char	*read_to_out(t_listwrap *wrap, int fd, size_t tsize)
 	{
 		if (size - (tmp - buf) - 1)
 			store_remainder(wrap, tmp + 1, size - (tmp - buf) - 1);
-		init_out(&size, tsize, buf, tmp);
+		out = init_out(&size, tsize, buf, tmp);
 	}
 	if (!out)
 		return (free_wrap(wrap), NULL);

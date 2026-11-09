@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: abronner <abronner@42studnets.berlin>      +#+  +:+       +#+        */
+/*   By: abronner <abronner@students.42berlin.de>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/02/21 22:07:38 by abronner          #+#    #+#             */
-/*   Updated: 2025/02/24 09:45:33 by abronner         ###   ########.fr       */
+/*   Created: 2025/03/06 09:59:26 by abronner          #+#    #+#             */
+/*   Updated: 2025/03/12 18:42:51 by abronner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_H
-# define GET_NEXT_LINE_HGNL_H
+# define GET_NEXT_LINE_H
 
 # include <stddef.h>
 # include <stdlib.h>
